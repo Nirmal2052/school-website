@@ -1,0 +1,44 @@
+/* Basic style to make it look clean and mobile-friendly */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #0077cc;
+    color: white;
+    padding: 1em;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav {
+    margin-top: 0.5em;
+  }
+  
+  nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 2em;
+  }
+  
+  section {
+    margin-bottom: 2em;
+  }
+  
+  footer {
+    background-color: #f0f0f0;
+    padding: 1em;
+    text-align: center;
+  }
+  
