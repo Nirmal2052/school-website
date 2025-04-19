@@ -6,12 +6,16 @@ media_folder: "assets/images"
 public_folder: "/assets/images"
 
 collections:
-  - name: "notices"
-    label: "Notices"
-    folder: "content/notices"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "index.html"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - { label: "Content", name: "body", widget: "markdown" }
+      - file: "about.html"
+        label: "About Us Page"
+        name: "about"
+        fields:
+          - { label: "Content", name: "body", widget: "markdown" }
